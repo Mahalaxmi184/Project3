@@ -1,7 +1,3 @@
-
-
-
-
 # HR Analytics Dashboard
 
 
@@ -14,7 +10,6 @@ The HR Analytics Dashboard is a tool designed to help HR professionals visualize
 - **Employee Satisfaction:** Measure and monitor employee satisfaction through surveys.
 - **Interactive Visualizations:** Use interactive charts and graphs for better data exploration.
 - **Customizable Reports:** Generate reports based on specific criteria and metrics.
-- **kpi Reports:** Generate reports based on specific criteria and metrics.
 
 
 ### Navigating the Dashboard
