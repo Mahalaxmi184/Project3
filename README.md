@@ -35,28 +35,35 @@ Average Years : This shows the avg years of the Employees.
 
 Average Age : This shows the average Age of the Employees.
 
+Charts
 
-Attrition by EducationalField
+Attrition by EducationalField:
+
 This donuts chart represents the attrition rate by educationalfields. It helps determine if there are any specific education fields with higher attrition rates.
 
 
-Number of Employees By Age Group
+Number of Employees By Age Group:
+
 By creating age groups using clustered column chart, this bar graph illustrates the distribution of employees across different age ranges. It helps identify age-related trends in workforce.
 
 
-Job Satisfaction Rate
+Job Satisfaction Rate:
+
 The matrix chart showcases job satisfaction ratings for different job roles or positions. It enables us to identify areas of high or low job satisfaction within organization.
 
 
-Attrition by Salary Slab
+Attrition by Salary Slab:
+
 The bar chart represents the attrition rate by Salary Slab. It helps determine if there are any specific SalarySlab with higher attrition rates.
 
 
-Attrition by JobRole
+Attrition by JobRole:
+
 This bar graph presents the attrition rates Job Role. It helps determine if there are any JobRole with higher attrition rates.
 
 
-Attrition Rate Years At Company
+Attrition Rate Years At Company:
+
 The Line chart show the attrition rates segmented by Years At Company. It provides a visual breakdown of attrition patterns based on attrition and years at company.
 
 
