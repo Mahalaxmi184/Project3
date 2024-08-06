@@ -1,101 +1,55 @@
-##HR Analytics Dashboard
-
-##ABOUT PROJECT :
-
-The HR Analytics Dashboard is a Power BI-based project that provides insightful visualizations and analysis of human resources data. It offers HR professionals a comprehensive overview of key metrics and trends, enabling data-driven decision-making to optimize HR processes and improve employee engagement.
-
-With this dashboard, HR professionals gain crucial insights into key areas such as Employee Count, Attrition Trends, Demographics, Job satisfaction levels, and more.
-
-HR teams can use its capabilities to make smart decisions and effectively manage workforce.
 
 
-##Technologies Used :
-
-📈 Power BI
-
-🔢 Excel
-
-##Steps Overview :
-
-Data subset collected from online.
-
-Understanding the Data.
-
-Data Cleaning & Finding Missing values.
-
-Data Visualization.
-
-##DASHBOARD CONTENT :
-
-KPI's such as
-
-1)Employee Count : This provides a snapshot of the total number of employees in organization.
-
-2)Attrition Count : This indicates the number of employees who have left the company.
-
-3)Attrition Rate : This calculates the percentage of employees who have left, relative to the total employees count.
-
-4)Average Years : This shows the avg years of the Employees.
-
-5)Average Age : This shows the average Age of the Employees.
-
-##Charts
-
-1)Attrition by EducationalField:
-
-This donuts chart represents the attrition rate by educationalfields. It helps determine if there are any specific education fields with higher attrition rates.
 
 
-2)Number of Employees By Age Group:
-
-By creating age groups using clustered column chart, this bar graph illustrates the distribution of employees across different age ranges. It helps identify age-related trends in workforce.
+# HR Analytics Dashboard
 
 
-3)Job Satisfaction Rate:
+## Introduction
+The HR Analytics Dashboard is a tool designed to help HR professionals visualize and analyze employee data. This dashboard provides insights into various HR metrics such as employee turnover, performance, and satisfaction.
 
-The matrix chart showcases job satisfaction ratings for different job roles or positions. It enables us to identify areas of high or low job satisfaction within organization.
+## Features
+- **Employee Turnover Analysis:** Visualize and predict employee turnover rates.
+- **Performance Metrics:** Track and analyze employee performance over time.
+- **Employee Satisfaction:** Measure and monitor employee satisfaction through surveys.
+- **Interactive Visualizations:** Use interactive charts and graphs for better data exploration.
+- **Customizable Reports:** Generate reports based on specific criteria and metrics.
+
+## Usage
+Once the application is running, you can access the dashboard in your web browser at `http://localhost:5000`.
+
+### Navigating the Dashboard
+- **Home:** Overview of key HR metrics.
+- **Employee Turnover:** Detailed analysis of turnover rates and trends.
+- **Performance:** Visualization of employee performance data.
+- **Satisfaction:** Insights into employee satisfaction levels.
+
+### Uploading Data
+To upload new HR data, navigate to the "Upload Data" section and select your CSV file. The data will be processed and integrated into the dashboard.
+
+## Configuration
+The application settings can be adjusted in the `config.py` file. Key configurations include:
+- Database connection details
+- Application port
+- Logging settings
+
+## Data Sources
+The dashboard requires HR data in CSV format. Sample data files can be found in the `data/` directory. Ensure your CSV files follow the same structure as the sample files for proper integration.
+
+## Contributing
+We welcome contributions to improve the HR Analytics Dashboard. If you have suggestions or find issues, please open an issue or submit a pull request.
+
+### Steps to Contribute
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
 
 
-4)Attrition by Salary Slab:
-
-The bar chart represents the attrition rate by Salary Slab. It helps determine if there are any specific SalarySlab with higher attrition rates.
 
 
-5)Attrition by JobRole:
 
-This bar graph presents the attrition rates Job Role. It helps determine if there are any JobRole with higher attrition rates.
-
-
-6)Attrition Rate Years At Company:
-
-The Line chart show the attrition rates segmented by Years At Company. It provides a visual breakdown of attrition patterns based on attrition and years at company.
-
-
-##Dashboard Overview :
-The HR Analytics Dashboard is a powerful Power BI-based tool designed to provide HR professionals with comprehensive insights into key HR metrics and trends. It combines visually appealing and interactive visualizations to enable data-driven decision-making, optimize HR processes, and enhance employee engagement.
-
-By leveraging the dashboard's key performance indicators (KPIs), HR professionals can track and analyze critical workforce data in real-time. This empowers them to identify patterns, trends, and potential areas of improvement within the organization.
-
-The dashboard includes various HR analytics charts and graphs. The Department-wise Attrition Pie Chart provides an overview of attrition distribution across departments. The No. of Employees by Age Group Column Chart displays age demographics within the organization, and the Job Satisfaction Rate Heat Map Chart highlights satisfaction levels across roles and departments. Additionally, the Education Field-wise Attrition Bar Graph shows attrition rates by educational background, and the Attrition Rate by Gender for Different Age Groups Donut Chart offers insights into attrition patterns across gender and age groups.
-
-The HR Analytics Dashboard offers a user-friendly interface, empowering HR professionals to explore the data interactively, filter information, and gain deeper insights. With this valuable tool, HR teams can make informed decisions, proactively address workforce challenges, and ultimately foster a positive work environment.
-
-##Features
-
-Employee Demographics: Visualize employee distribution by age, gender, department, and more.
-
-Attrition Analysis: Analyze employee attrition rates and identify key factors contributing to attrition.
-
-Performance Metrics: Track employee performance metrics and identify high and low performers.
-
-Predictive Modeling: Implement machine learning models to predict employee attrition and other HR metrics.
-
-
-##Data
-The data used in this project includes various HR-related datasets. These datasets should be placed in the data/raw/ directory. The data processing script will handle cleaning and preprocessing.
-
-##Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request. Please follow the project's code of conduct.
 
 
 
