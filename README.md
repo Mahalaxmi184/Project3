@@ -15,8 +15,6 @@ The HR Analytics Dashboard is a tool designed to help HR professionals visualize
 - **Interactive Visualizations:** Use interactive charts and graphs for better data exploration.
 - **Customizable Reports:** Generate reports based on specific criteria and metrics.
 
-## Usage
-Once the application is running, you can access the dashboard in your web browser at `http://localhost:5000`.
 
 ### Navigating the Dashboard
 - **Home:** Overview of key HR metrics.
