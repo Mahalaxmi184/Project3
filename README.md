@@ -20,30 +20,43 @@ Data Cleaning & Finding Missing values.
 Data Visualization.
 
 DASHBOARD CONTENT :
+
 KPI's such as
+
 Employee Count : This provides a snapshot of the total number of employees in organization.
+
 Attrition Count : This indicates the number of employees who have left the company.
+
 Attrition Rate : This calculates the percentage of employees who have left, relative to the total employees count.
+
 Average Years : This shows the avg years of the Employees.
+
 Average Age : This shows the average Age of the Employees.
+
 
 Attrition by EducationalField
 This donuts chart represents the attrition rate by educationalfields. It helps determine if there are any specific education fields with higher attrition rates.
 
+
 Number of Employees By Age Group
 By creating age groups using clustered column chart, this bar graph illustrates the distribution of employees across different age ranges. It helps identify age-related trends in workforce.
+
 
 Job Satisfaction Rate
 The matrix chart showcases job satisfaction ratings for different job roles or positions. It enables us to identify areas of high or low job satisfaction within organization.
 
+
 Attrition by Salary Slab
 The bar chart represents the attrition rate by Salary Slab. It helps determine if there are any specific SalarySlab with higher attrition rates.
+
 
 Attrition by JobRole
 This bar graph presents the attrition rates Job Role. It helps determine if there are any JobRole with higher attrition rates.
 
+
 Attrition Rate Years At Company
 The Line chart show the attrition rates segmented by Years At Company. It provides a visual breakdown of attrition patterns based on attrition and years at company.
+
 
 Dashboard Overview :
 The HR Analytics Dashboard is a powerful Power BI-based tool designed to provide HR professionals with comprehensive insights into key HR metrics and trends. It combines visually appealing and interactive visualizations to enable data-driven decision-making, optimize HR processes, and enhance employee engagement.
@@ -55,10 +68,16 @@ The dashboard includes various HR analytics charts and graphs. The Department-wi
 The HR Analytics Dashboard offers a user-friendly interface, empowering HR professionals to explore the data interactively, filter information, and gain deeper insights. With this valuable tool, HR teams can make informed decisions, proactively address workforce challenges, and ultimately foster a positive work environment.
 
 Features
+
 Employee Demographics: Visualize employee distribution by age, gender, department, and more.
+
 Attrition Analysis: Analyze employee attrition rates and identify key factors contributing to attrition.
+
 Performance Metrics: Track employee performance metrics and identify high and low performers.
+
 Predictive Modeling: Implement machine learning models to predict employee attrition and other HR metrics.
+
+
 Data
 The data used in this project includes various HR-related datasets. These datasets should be placed in the data/raw/ directory. The data processing script will handle cleaning and preprocessing.
 
